@@ -1,0 +1,1 @@
+web: gunicorn codestar-2021-lg.wsgi
