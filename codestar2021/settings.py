@@ -33,7 +33,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['codestar-2021-lg.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['codestar-2021-lg-be51b5f953e9.herokuapp.com/', 'localhost']
 
 
 # Application definition
