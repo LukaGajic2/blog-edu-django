@@ -1,1 +1,1 @@
-web: gunicorn codestar-2021-lg.wsgi
+web: gunicorn codestar2021.wsgi
