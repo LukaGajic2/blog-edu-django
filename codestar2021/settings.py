@@ -16,7 +16,7 @@ import os
 import dj_database_url
 
 if os.path.isfile("env.py"):
-   import env
+    import env
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -33,7 +33,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['codestar-2021-lg-be51b5f953e9.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['8000-lukagajic2-blog-edu-djan-nz7wvssk25.us2.codeanyapp.com', 'localhost']
 
 
 # Application definition
@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
+    'django_summernote',
     'blog',
 ]
 
