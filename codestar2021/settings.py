@@ -35,7 +35,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['8000-lukagajic2-blog-edu-djan-nz7wvssk25.us2.codeanyapp.com', 'localhost']
+ALLOWED_HOSTS = ['codestar-2021-lg-be51b5f953e9.herokuapp.com', 'localhost']
 
 
 # Application definition
